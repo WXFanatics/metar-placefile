@@ -237,11 +237,11 @@ function gen_entry($M,$miles,$bearingWR) {
         $output .= "Text: 0, 0, 1, ".$tempF.",\"".gen_popup($M)."\"\n";
     }
   }
-  if(isset($M['dheatidx']) && $M['dheatidx'] >= 108) {
-    $output .= "Color: 250 0 248\n";
-    $output .= "Text: -30, 0, 1, ".$M['dheatidx']."\n";
-    $output .= "Color: 255 255 255\n";
-    }
+//   if(isset($M['dheatidx']) && $M['dheatidx'] > 108) {
+//     $output .= "Color: 250 0 248\n";
+//     $output .= "Text: -30, 0, 1, ".$M['dheatidx']."\n";
+//     $output .= "Color: 255 255 255\n";
+//     }
 //   if(isset($M['ddewpt'])) {
 //     $output .= "Text: -17, -13, 1, ".$M['ddewpt']."\n";
 // 	}
@@ -318,8 +318,8 @@ function gen_entry($M,$miles,$bearingWR) {
 #---------------------------------------------------------------------------
 
 // function pick_wind_icon($speed) {
-// 	# return icon number based on speed in 5mph chunks using https://www.weather.gov/hfo/windbarbinfo
-// 	# as a guide.for windbarbs_75_new.png image
+	# return icon number based on speed in 5mph chunks using https://www.weather.gov/hfo/windbarbinfo
+	# as a guide.for windbarbs_75_new.png image
 	
 // 	static $barbs = array(2,8,14,20,25,31,37,43,60,66,71,77,83,89,94,100,112,117/*,123*/); #in MPH
 // 	static $barbs = array(2,7,12,17,22,27,32,37,52,47,52,57,62,67,77,82,87,92,97,102); # in KTS
@@ -331,7 +331,7 @@ function gen_entry($M,$miles,$bearingWR) {
 // 	if($i > 17) {$i = 17; }
 // 	return($i);
 	
-// }
+//}
 #---------------------------------------------------------------------------
 
 // function pick_gust_icon($speed) {
