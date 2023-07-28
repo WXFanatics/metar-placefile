@@ -354,8 +354,8 @@ function gen_popup($M) {
 	$obsTime = strtotime($M['OBSTIME']);
 	$out .= "Time: ".date($timeFormat,$obsTime)." (".gmdate('H:i',$obsTime).'Z)\n';
 	$out .= "Temp:    ".$M['TEMPERATURE'].'\n';
-	$out .= "Dewp:   ".$M['DEWPT'].'\n';
-	$out .= "RH:   ".$M['HUMIDITY'].'\n';
+	$out .= "DewP:   ".$M['DEWPT'].'\n';
+	$out .= "RelH:   ".$M['HUMIDITY'].'\n';
 	
 	if(strpos($M['WIND'],',') !== false) {
 		$M['WIND'] = str_replace("gusting",'\n        gusting',$M['WIND']);
