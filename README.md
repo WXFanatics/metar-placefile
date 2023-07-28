@@ -4,13 +4,13 @@ I will most likely create and modify the placefiles with my personal touches.
 
 Modified Placefiles:
 
-[Temperatures Only](https://github.com/WXFanatics/metar-placefile/blob/main/metar-t.php) All temperatures, color coded.
+[Temperatures Only](https://github.com/WXFanatics/metar-placefile/blob/main/metar-t.php) - Temperatures, color coded. Commented out windbarbs. Centered temperatures on location
 
 <img src="https://github.com/WXFanatics/metar-placefile/assets/96398274/6b707e6e-acd1-45de-8014-dcb2d13b1ed3" width="600" height="400" />
 
 ------------------
 
-[Temperature and Heat Index](https://github.com/WXFanatics/metar-placefile/blob/main/metar-thi.php) - Commented out windbarbs. Added color coding. Centered temperatures on location. Set heat index =<103 to show with temperatures. This allows the danger classification of heat indexes to be displayed with the temperatures. More info here: https://www.weather.gov/ama/heatindex
+[Temperature and Heat Index](https://github.com/WXFanatics/metar-placefile/blob/main/metar-thi.php) - Commented out windbarbs. Added color coding. Centered temperatures on location. Set heat index >=103 to show with temperatures. This allows the danger classification of heat indexes to be displayed with the temperatures. More info here: https://www.weather.gov/ama/heatindex
 
 <img src="https://github.com/WXFanatics/metar-placefile/assets/96398274/0c41cb54-b0a4-4619-b3db-a5d2c75851e5" width="600" height="400" />
 
