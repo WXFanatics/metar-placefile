@@ -303,7 +303,7 @@ offset	data	Convert	Key	sample
 	$M['dwind']      = intval(round(convertSpeed((float)$V[8],'kt','mph'),0));
 	$M['dwindkts']   = (integer)$V[8];
 	$windkmh         = intval(round(convertSpeed((float)$V[8],'kt','kmh'),0));
-	$M['WIND']       = $direction." at ".$M['dwind']." mph"."($windkmh km/h, ".$M['dwindkts']." kt)";
+	$M['WIND']       = $direction." at ".$M['dwind']." mph "."($windkmh km/h, ".$M['dwindkts']." kt)";
 	if($V[9] !== '') {
 		$M['dwindgust'] = intval(round(convertSpeed((float)$V[9],'kt','mph'),0));
 		$gustkmh        = intval(round(convertSpeed((float)$V[9],'kt','kmh'),0));
