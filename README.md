@@ -5,6 +5,7 @@ I will most likely create and modify the placefiles with my personal touches.
 Modified Placefiles:
 
 [Tmeperature and Heat Index](https://github.com/WXFanatics/metar-placefile/blob/main/metar-thi.php) - Commented out windbarbs. Added color coding. Set heat index =<108 to show with temperatures.
+
 <img src="https://github.com/WXFanatics/metar-placefile/assets/96398274/0c41cb54-b0a4-4619-b3db-a5d2c75851e5" width="600" height="400" />
 
 # metar-placefile
