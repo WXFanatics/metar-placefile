@@ -1,3 +1,11 @@
+## This is a fork of https://github.com/ktrue/metar-placefile
+
+I will most likely create and modify the placefiles with my personal touches.
+
+Modified Placefiles:
+
+[Tmeperature and Heat Index](https://github.com/WXFanatics/metar-placefile/blob/main/metar-thi.php) - Commented out windbarbs. Added color coding. Set heat index =<108 to show with temperatures.
+
 # metar-placefile
 ## GRLevelX placefile generator for METAR data from aviationweather.gov
 
