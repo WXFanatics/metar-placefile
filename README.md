@@ -4,7 +4,7 @@ I will most likely create and modify the placefiles with my personal touches.
 
 Modified Placefiles:
 
-[Temperatures Only](https://github.com/WXFanatics/metar-placefile/blob/main/metar-t.php) All temperatures, color coded.
+[Temperatures Only](https://github.com/WXFanatics/metar-placefile/blob/main/metar-t.php) - Temperatures, color coded. Commented out windbarbs. Centered temperatures on location
 
 <img src="https://github.com/WXFanatics/metar-placefile/assets/96398274/6b707e6e-acd1-45de-8014-dcb2d13b1ed3" width="600" height="400" />
 
