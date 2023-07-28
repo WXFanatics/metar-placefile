@@ -4,7 +4,13 @@ I will most likely create and modify the placefiles with my personal touches.
 
 Modified Placefiles:
 
-[Tmeperature and Heat Index](https://github.com/WXFanatics/metar-placefile/blob/main/metar-thi.php) - Commented out windbarbs. Added color coding. Centered temperatures on location. Set heat index =<108 to show with temperatures.
+[Temperatures Only](https://github.com/WXFanatics/metar-placefile/blob/main/metar-t.php) All temperatures, color coded.
+
+<img src="https://github.com/WXFanatics/metar-placefile/assets/96398274/6b707e6e-acd1-45de-8014-dcb2d13b1ed3" width="600" height="400" />
+
+------------------
+
+[Temperature and Heat Index](https://github.com/WXFanatics/metar-placefile/blob/main/metar-thi.php) - Commented out windbarbs. Added color coding. Centered temperatures on location. Set heat index =<105 to show with temperatures.
 
 <img src="https://github.com/WXFanatics/metar-placefile/assets/96398274/0c41cb54-b0a4-4619-b3db-a5d2c75851e5" width="600" height="400" />
 
@@ -16,6 +22,7 @@ Modified Placefiles:
 This script set gets METAR data from aviationweather.gov and formats a placefile for GRLevelX software
 to display icons for weather conditions/sky conditions, wind barbs for wind direction/speed, and
 mouse-over popups with text for the current METAR report from the station.
+
 
 Two scripts are to run via cron to gather the data routinely (*get-metar-metadata.php*, *get-aviation-metars.php*).  
 
