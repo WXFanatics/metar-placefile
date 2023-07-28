@@ -5,6 +5,7 @@ I will most likely create and modify the placefiles with my personal touches.
 Modified Placefiles:
 
 [Tmeperature and Heat Index](https://github.com/WXFanatics/metar-placefile/blob/main/metar-thi.php) - Commented out windbarbs. Added color coding. Set heat index =<108 to show with temperatures.
+<img src="https://github.com/WXFanatics/metar-placefile/assets/96398274/0c41cb54-b0a4-4619-b3db-a5d2c75851e5" width="600" height="400" />
 
 # metar-placefile
 ## GRLevelX placefile generator for METAR data from aviationweather.gov
@@ -28,6 +29,7 @@ This script reads the **stations.txt** from aviationweather.gov and merges optio
 is used by the *get-aviation-metars.php* program for all the descriptive info about a METAR site.
 
 It should be run daily by cron .. the source file doesn't change very often.
+
 
 ### *get-aviation-metars.php*
 
