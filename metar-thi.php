@@ -237,7 +237,7 @@ function gen_entry($M,$miles,$bearingWR) {
         $output .= "Text: 0, 0, 1, ".$tempF.",\"".gen_popup($M)."\"\n";
     }
   }
-  if(isset($M['dheatidx']) && $M['dheatidx'] >= 108) {
+  if(isset($M['dheatidx']) && $M['dheatidx'] >= 103) {
     $output .= "Color: 250 0 248\n";
     $output .= "Text: -30, 0, 1, ".$M['dheatidx']."\n";
     $output .= "Color: 255 255 255\n";
