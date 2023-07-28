@@ -270,7 +270,7 @@ function gen_entry($M,$miles,$bearingWR) {
 	# high wind speed overrides
 	if($M['dwind'] >= 58) {
 		$icon=52;
-
+		
 	} elseif ($M['dwind'] >= 35) {
 		$icon=51;
 	}
@@ -353,8 +353,8 @@ function gen_popup($M) {
 	$out .= "----------------------------------------------------------".'\n';
 	$obsTime = strtotime($M['OBSTIME']);
 	$out .= "Time: ".date($timeFormat,$obsTime)." (".gmdate('H:i',$obsTime).'Z)\n';
-	$out .= "T:    ".$M['TEMPERATURE'].'\n';
-	$out .= "Td:   ".$M['DEWPT'].'\n';
+	$out .= "Temp:    ".$M['TEMPERATURE'].'\n';
+	$out .= "Dewp:   ".$M['DEWPT'].'\n';
 	$out .= "RH:   ".$M['HUMIDITY'].'\n';
 	
 	if(strpos($M['WIND'],',') !== false) {
@@ -362,7 +362,7 @@ function gen_popup($M) {
 	}
 	$out .= "Wind: ".$M['WIND'].'\n';
 	if(isset($M['VISIBILITY'])) {
-		$out .= "Vsby: " .$M['VISIBILITY'].'\n';
+		$out .= "Visi: " .$M['VISIBILITY'].'\n';
 	}
 	if(isset($M['PRECIP'])) {
 		$out .= 'Prcp: '.$M['PRECIP'].'\n';
@@ -372,7 +372,7 @@ function gen_popup($M) {
 	}
 	$out .= "Cond: ".$M['CONDITIONS'].'\n';
 	if(strlen($M['CLOUD-DETAILS']) > 4) {
-	  $sky = str_replace("\t",',\n        ',$M['CLOUD-DETAILS']);
+	  $sky = str_replace("\t",',\n      ',$M['CLOUD-DETAILS']);
 	  $out .= "Sky:  ".$sky.'\n';
 	}
 	if($M['dalthpa'] > 500) {
@@ -439,7 +439,7 @@ function gen_popup($M) {
     /*:: :*/
     /*:: Official Web site: http://www.zipcodeworld.com :*/
     /*:: :*/
-    /*:: Hexa Software Development Center © All Rights Reserved 2004:*/
+    /*:: Hexa Software Development Center ï¿½ All Rights Reserved 2004:*/
     /*:: :*/
     /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
   function GML_distance($lat1, $lon1, $lat2, $lon2) { 
