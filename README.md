@@ -38,6 +38,7 @@ This script reads the **stations.txt** from aviationweather.gov and merges optio
 is used by the *get-aviation-metars.php* program for all the descriptive info about a METAR site.
 
 It should be run daily by cron .. the source file doesn't change very often.
+If the **stations.txt** file is not available, the cache file **metar-location-raw.txt** will be used instead
 
 
 ### *get-aviation-metars.php*
@@ -66,7 +67,7 @@ It requires the following files:
 
 The script uses 2 icon files:  *windbarbs_75_new.png*, *cloudcover_new.png*
 
-If you run the script for debugging in a browser, add `?dpi=96&lat={latitude}&lon={longitude}` to
+If you run the script for debugging in a browser, add `?version=1.5&dpi=96&lat={latitude}&lon={longitude}` to
 the *metar-placefile.php* URL so it knows what to select for display.
 
 ### *metar-cond-iconcodes-inc.php*
